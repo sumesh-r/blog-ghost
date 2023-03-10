@@ -1,0 +1,13 @@
+@import "scss/colors";
+@import "scss/mixins";
+@import "scss/fonts";
+@import "scss/container";
+
+.default-footer {
+  @extend .container--py;
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: rgba( 29, 53, 87, 0.04 );
+}

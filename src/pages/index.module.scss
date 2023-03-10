@@ -1,0 +1,6 @@
+@import "scss/container";
+
+.index {
+  @extend .container--px;
+  @extend .container--py--small;
+}

@@ -1,0 +1,28 @@
+.post-content {
+  padding: 0 2.8rem;
+
+  img {
+    display: block;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+
+  a {
+    text-decoration: underline;
+    color: $text;
+    font-weight: 700;
+  }
+
+  code,
+  .code,
+  pre {
+    font-family: "Poppins", sans-serif;
+    background: $text;
+    color: white;
+    font-size: 16px;
+    line-height: 35px;
+    padding: 15px 10px;
+    border-radius: 15px;
+  }
+}

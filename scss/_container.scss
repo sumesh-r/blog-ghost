@@ -1,0 +1,84 @@
+@import "mixins";
+@import "colors";
+
+.container {
+  max-width: 69.375rem;
+  margin: 0 auto;
+
+  &--pall {
+    padding-top: 4.375rem;
+    padding-right: 1.5rem;
+    padding-bottom: 4.375rem;
+    padding-left: 1.5rem;
+
+    @include breakpoint-up(large) {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
+  }
+
+  &--py {
+    padding-top: 4.375rem;
+    padding-bottom: 4.375rem;
+
+    @include breakpoint-up(large) {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
+  }
+
+  &--py--small {
+    padding-top: 2.18rem;
+    padding-bottom: 2.18rem;
+
+    @include breakpoint-up(large) {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+  }
+
+  &--px {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  &--pt {
+    padding-top: 4.375rem;
+
+    @include breakpoint-up(large) {
+      padding-top: 6rem;
+    }
+  }
+  &--pr {
+    padding-right: 1.5rem;
+  }
+  &--pb {
+    padding-bottom: 4.375rem;
+
+    @include breakpoint-up(large) {
+      padding-bottom: 6rem;
+    }
+  }
+  &--pl {
+    padding-left: 1.5rem;
+  }
+
+  &--border {
+    border: 1px solid lighten($grey, 20);
+  }
+
+  &--border-top {
+    border-top: 1px solid lighten($grey, 20);
+  }
+
+  &--border-right {
+    border-right: 1px solid lighten($grey, 20);
+  }
+
+  &--border-bottom {
+    border-bottom: 1px solid lighten($grey, 20);
+  }
+
+  &--border-left {
+    border-left: 1px solid lighten($grey, 20);
+  }
+}

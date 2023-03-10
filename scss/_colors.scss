@@ -1,0 +1,23 @@
+$primary: #ccd5ae;
+$secondary: #e9edc9;
+$text: #1D3557;
+
+$background: #fffdf9;
+
+$greyDark: hsl(233, 26%, 24%);
+$grey: hsl(233, 8%, 62%);
+$greyLight: hsl(220, 16%, 96%);
+$greyLighter: hsl(0, 0%, 98%);
+
+$white: hsl(0, 0%, 100%);
+
+$colors: (
+  primary: $primary,
+  secondary: $secondary,
+  text: $text,
+  greyDark: $greyDark,
+  grey: $grey,
+  greyLight: $greyLight,
+  greyLighter: $greyLighter,
+  white: $white,
+);

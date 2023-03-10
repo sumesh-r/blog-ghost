@@ -1,0 +1,34 @@
+@import "scss/container";
+
+.post-overview {
+  display: flex;
+  flex-direction: row;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  .image-container {
+    flex: 1;
+    margin-left: 15px;
+
+    &__image {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border-radius: 10px;
+    }
+  }
+
+  .content-container {
+    @extend .container--px;
+    flex: 2;
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+}
